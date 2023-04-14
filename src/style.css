@@ -27,16 +27,45 @@ body {
 }
 .diamonds::before {
   float: left;
+  padding-right: 140px;
+}
+.diamonds::after {
+  float: right;
+  padding-left: 140px;
 }
 .spades::before,
 .spades::after {
   content: "\2660";
 }
+.spades::before {
+  float: left;
+  padding-right: 140px;
+}
+.spades::after {
+  float: right;
+  padding-left: 140px;
+}
 .hearts::before,
 .hearts::after {
   content: "\2665";
 }
+.hearts::before {
+  float: left;
+  padding-right: 140px;
+}
+.hearts::after {
+  float: right;
+  padding-left: 140px;
+}
 .clubs::before,
 .clubs::after {
   content: "\2663";
+}
+.clubs::before {
+  float: left;
+  padding-right: 140px;
+}
+.clubs::after {
+  float: right;
+  padding-left: 140px;
 }
